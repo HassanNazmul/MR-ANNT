@@ -1,0 +1,13 @@
+.title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 98px;
+    font-weight: 750;
+    letter-spacing: 5px;
+}
+
+@media (max-width: 576px) {
+    .title {
+        font-size: 52px;
+    }
+}

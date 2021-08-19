@@ -1,0 +1,88 @@
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+img {
+    width: 90%;
+    border-radius: 999px;
+    margin-top: 12px;
+    padding: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: drop-shadow(-3px 17px 8px rgba(0, 0, 0, 0.5));
+}
+
+/*img:hover {*/
+/*    transform: scale(1.15);*/
+/*    transition: all 0.5s ease;*/
+/*    cursor: pointer;*/
+/*}*/
+
+.cardContainer {
+    border-bottom: double;
+    color: #ffc107;
+}
+
+/*.cardContainer:hover {*/
+/*    transform: scale(1.1);*/
+/*    transition: all 0.5s;*/
+/*    cursor: pointer;*/
+/*}*/
+
+.cardOuter {
+    border-radius: 5px;
+    border: thin solid;
+    color: #ffc107;
+    padding: 3px;
+}
+
+@media (max-width: 576px) {
+    .cardOuter {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cardOuter {
+        margin: 15px;
+    }
+}
+
+.cardOuter:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.fullName {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.iconDiv {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+
+.icon {
+    font-size: 35px;
+    color: #ffc107;
+    padding: 10px;
+}
+
+.icon:hover {
+    color: #ffffff;
+    cursor: pointer;
+}

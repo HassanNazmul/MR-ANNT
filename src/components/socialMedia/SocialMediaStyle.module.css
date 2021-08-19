@@ -1,0 +1,31 @@
+.title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 750;
+    letter-spacing: 5px;
+    padding-top: 100px;
+}
+
+.title a {
+    text-decoration: none;
+    color: #ffc107;
+}
+
+.title a:hover {
+    color: red;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .title {
+        padding: 0 0 50px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .title {
+        font-size: 24px;
+        padding: 0px 0 50px 0;
+    }
+}
