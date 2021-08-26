@@ -3,6 +3,7 @@ import styles from './ProfileStyle.module.css'
 
 import {FaFacebookSquare, FaLinkedin, HiOutlineMail} from 'react-icons/all';
 import abir from '../../img/abir.jpg'
+import nur from '../../img/nur.jpg'
 
 function Profile() {
 
