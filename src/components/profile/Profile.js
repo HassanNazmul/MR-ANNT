@@ -28,15 +28,15 @@ function Profile() {
                             </div>
                             <div className={styles.fullName}>Fayed Abir</div>
                             <div className={styles.iconDiv}>
-                                <icon className={styles.icon}><FaFacebookSquare onClick={() => {
+                                <a className={styles.icon}><FaFacebookSquare onClick={() => {
                                     history.push(window.location = 'https://www.facebook.com/fayedabir')
-                                }}/></icon>
-                                <icon className={styles.icon}><FaLinkedin onClick={() => {
+                                }}/></a>
+                                <a className={styles.icon}><FaLinkedin onClick={() => {
                                     history.push(window.location = 'https://www.linkedin.com/in/fayed-abir-969916171')
-                                }}/></icon>
-                                <icon className={styles.icon}><HiOutlineMail onClick={() => {
+                                }}/></a>
+                                <a className={styles.icon}><HiOutlineMail onClick={() => {
                                     history.push(window.location = 'mailto:fayedabirf4@gmail.com')
-                                }}/></icon>
+                                }}/></a>
                             </div>
                         </div>
                     </div>
@@ -50,15 +50,15 @@ function Profile() {
                             </div>
                             <div className={styles.fullName}>Nur Mohammed</div>
                             <div className={styles.iconDiv}>
-                                <icon className={styles.icon}><FaFacebookSquare onClick={() => {
+                                <a className={styles.icon}><FaFacebookSquare onClick={() => {
                                     history.push(window.location = 'https://www.facebook.com/md.nurulhuda1')
-                                }}/></icon>
-                                <icon className={styles.icon}><FaLinkedin onClick={() => {
+                                }}/></a>
+                                <a className={styles.icon}><FaLinkedin onClick={() => {
                                     history.push(window.location = '#')
-                                }}/></icon>
-                                <icon className={styles.icon}><HiOutlineMail onClick={() => {
+                                }}/></a>
+                                <a className={styles.icon}><HiOutlineMail onClick={() => {
                                     history.push(window.location = 'mailto:nurul.huda420.nh6@gmail.com')
-                                }}/></icon>
+                                }}/></a>
                             </div>
                         </div>
                     </div>
