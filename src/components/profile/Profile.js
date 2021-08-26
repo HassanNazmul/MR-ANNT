@@ -1,13 +1,12 @@
 import React from 'react';
 import styles from './ProfileStyle.module.css'
-import {useHistory} from "react-router-dom";
-
+// import {useHistory} from "react-router-dom";
 import {FaFacebookSquare} from 'react-icons/all';
 import abir from '../../img/abir.jpg'
 
 function Profile() {
 
-    const history = useHistory();
+    // const history = useHistory();
 
     return (
         <React.Fragment>
