@@ -29,23 +29,23 @@ function Profile() {
                         </div>
                     </div>
 
-                    {/*/!* NUR *!/*/}
-                    {/*<div className="col-lg-3 col-sm-6">*/}
-                    {/*    <div className={styles.cardOuter}>*/}
-                    {/*        <div className={styles.cardContainer}>*/}
-                    {/*            <div><img className={styles} src={nur} alt=""/></div>*/}
-                    {/*            <div className={styles.title}>NUR</div>*/}
-                    {/*        </div>*/}
-                    {/*        <div className={styles.fullName}>Nur Mohammed</div>*/}
-                    {/*        <div className={styles.iconDiv}><a href="https://www.facebook.com/md.nurulhuda1"*/}
-                    {/*                                           className={styles.icon}*/}
-                    {/*        ><FaFacebookSquare/></a><a href="#"*/}
-                    {/*                                   className={styles.icon}*/}
-                    {/*        ><FaLinkedin/></a><a href="mailto:nurul.huda420.nh6@gmail.com"*/}
-                    {/*                             className={styles.icon}><HiOutlineMail/></a>*/}
-                    {/*        </div>*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
+                    {/* NUR */}
+                    <div className="col-lg-3 col-sm-6">
+                        <div className={styles.cardOuter}>
+                            <div className={styles.cardContainer}>
+                                <div><img className={styles} src={nur} alt=""/></div>
+                                <div className={styles.title}>NUR</div>
+                            </div>
+                            <div className={styles.fullName}>Nur Mohammed</div>
+                            <div className={styles.iconDiv}><a href="https://www.facebook.com/md.nurulhuda1"
+                                                               className={styles.icon}
+                            ><FaFacebookSquare/></a><a href="#"
+                                                       className={styles.icon}
+                            ><FaLinkedin/></a><a href="mailto:nurul.huda420.nh6@gmail.com"
+                                                 className={styles.icon}><HiOutlineMail/></a>
+                            </div>
+                        </div>
+                    </div>
 
                     {/*/!* NAHID *!/*/}
                     {/*<div className="col-lg-3 col-sm-6">*/}
