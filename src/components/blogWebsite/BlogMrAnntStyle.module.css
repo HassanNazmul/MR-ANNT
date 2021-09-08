@@ -1,0 +1,34 @@
+.h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.cardOuter {
+    border-radius: 5px;
+    border: thin solid;
+    color: #ffc107;
+    padding: 3px;
+}
+
+.iconDiv {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.icon {
+    font-size: 35px;
+    color: #ffc107;
+    padding: 10px;
+}
+
+.socialTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px 24px;
+    color: #ffc107;
+}
+
+.socialTitle:hover {
+    color: #ffffff;
+}

@@ -2,7 +2,7 @@ import React from 'react';
 import Heading from "../components/heading/Heading";
 import Profile from "../components/profile/Profile";
 import styles from './HomePageStyle.module.css'
-import SocialMedia from "../components/socialMedia/SocialMedia";
+import BlogMrAnnt from "../components/blogWebsite/BlogMrAnnt";
 
 function HomePage() {
     return (
@@ -12,7 +12,7 @@ function HomePage() {
             <div className={styles.gap}></div>
             <Profile/>
             <div className={styles.gap}></div>
-            <SocialMedia/>
+            <BlogMrAnnt/>
         </React.Fragment>
     );
 }
